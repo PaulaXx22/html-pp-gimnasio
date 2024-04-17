@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>Club Viejuners</h1> 
+    </header>
+    <main>
+        <form>
+                <label for="nombre">Nombre</label> <br>
+                <input type="text" name="nombre" id="nombre" autofocus placeholder="nombre" required> <br>
+
+                <label for="apellidos">Apellidos</label> <br>
+                <input type="text" name="apellidos" id="apellidos" placeholder=" apellidos"  required> <br>
+
+                <label for="edad">Edad</label> <br>
+                <input type="number" name="edad" id="edad" placeholder="edad" min="18" required> <br>
+                <hr>
+                <p>Género:</p>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="sexo" id="masculino" value="Masculino" required>
+                <label for="femenino">Femenino</label>
+                <input type="radio" name="sexo" id="femenino" value="Femenino">
+                <label for="otro">Otro</label>
+                <input type="radio" name="sexo" id="otro" value="Otro">
+                <hr>
+                <label for="apellidos">me siento viejuner:</label> <br>
+                <label for="viejuner">si:</label> <br>
+                <input type="checkbox" name="viejuner" id="viejuner" value="yes"> <br>
+                <label for="viejuner">no:</label> <br>
+                <input type="checkbox" name="viejuner" id="viejuner" value="no"> <br>
+                
+                <label for="info">Cuentanos algo sobre tí:</label><br>
+                <textarea name="info" id="info"  maxlength="200"></textarea>
+
+                <h2> Datos personales:</h2>
+                <label for="email">Correo electrónico</label><br>
+                <input type="email" required><br>
+                <label for="tel">Número de teléfono</label><br>
+                <input type="number" name="tel" id="tel"><br>
+            
+                <br>
+                <input type="reset" name="borrar" id="reset"><br>
+                <br>
+                <input type="submit" value="Enviar">
+        
+    </form>
+       
+        
+    </main>
+</body>
+</html>
